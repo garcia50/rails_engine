@@ -7,4 +7,10 @@ class Api::V1::CustomersController < ApplicationController
   def show
     render json: Customer.find(params[:id])
   end
+
+  def favorite
+    customer =  Customer.find(params[:customer_id])  
+    render json: customer.favorite
+  end
+
 end
