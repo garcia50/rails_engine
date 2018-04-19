@@ -4,3 +4,6 @@ customer_id,merchant_id,status,created_at,updated_at
 2,3,shipped,2012-03-10 00:54:09 UTC,2012-03-10 00:54:09 UTC
 3,4,shipped,2012-03-24 15:54:10 UTC,2012-03-24 15:54:10 UTC
 4,4,shipped,2012-03-07 19:54:10 UTC,2012-03-07 19:54:10 UTC
+2,1,shipped,2012-03-25 09:54:09 UTC,2012-03-25 09:54:09 UTC
+2,1,pending ,2012-03-25 09:54:09 UTC,2012-03-25 09:54:09 UTC
+
