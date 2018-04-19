@@ -1,4 +1,7 @@
 class Invoice < ApplicationRecord
+  belongs_to :merchant
+  belongs_to :customer
+
   has_many :invoice_items
   has_many :transactions
 
@@ -7,4 +10,5 @@ class Invoice < ApplicationRecord
       sum + item.unit_price
     end
   end
+  
 end
